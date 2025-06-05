@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Git from "./components/Git/Git";
+import Git from "./components/git/Git";
 import "./App.css";
 
 function App() {
