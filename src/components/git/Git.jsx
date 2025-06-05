@@ -1,7 +1,7 @@
 import { useState, useCallback, useEffect } from "react";
 import styles from "./Git.module.css";
 import Loading from "../loading/Loading";
-import NotFound from "../NotFound/NotFound";
+import NotFound from "../notFound/NotFound";
 
 const CACHE_KEY = "github-repos-cache";
 const CACHE_DURATION = 1000 * 60 * 30; // 30 minutes
