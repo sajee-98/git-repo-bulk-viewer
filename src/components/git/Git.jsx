@@ -9,7 +9,7 @@ const RETRY_DELAY = 2000; // 2 seconds
 const MAX_RETRIES = 3;
 
 export default function Git() {
-  const [username, setUsername] = useState("sivothajan");
+  const [username, setUsername] = useState("sajee-98");
   const [repos, setRepos] = useState(() => {
     // Try to load from cache first
     const cached = localStorage.getItem(CACHE_KEY);
